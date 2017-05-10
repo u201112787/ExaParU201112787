@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div align=center>
-		<img align="center" src='HEADER.png'>
+		<img align="center" src='HEADER.png'></img>
 	</div>
 	
 	<?php
@@ -38,7 +38,7 @@
 						// output data of each row
 						while($row = $result->fetch_assoc()) {?>
 						<tr >
-							<td width="140"><img width=80 align="center" src="<?php echo $row['imagen_servicio']?>"></td>
+							<td width="140"><img width=80 align="center" src="<?php echo $row['imagen_servicio']?>"></img></td>
 							<td width="420"><b><?php echo $row['nombre_servicio']?></b><br><?php echo $row['descripcion_servicio']?></td>
 						</tr>
 					<?php }
@@ -60,7 +60,7 @@
 						// output data of each row
 						while($row = $result->fetch_assoc()) {?>
 						<tr >
-							<td width="140"><img width=80 align="center" src="<?php echo $row['imagen_servicio']?>"></td>
+							<td width="140"><img width=80 align="center" src="<?php echo $row['imagen_servicio']?>"></img></td>
 							<td width="420"><b><?php echo $row['nombre_servicio']?></b><br><?php echo $row['descripcion_servicio']?></td>
 						</tr>
 					<?php }
@@ -76,7 +76,7 @@
 	</table>
 	</div>
 	<div align=center>
-		<img align="center" src='BOT.png'>
+		<img align="center" src='BOT.png'></img>
 	</div>
 </body>
 </html>
